@@ -1,0 +1,25 @@
+using System;
+
+namespace homework
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Title = "TestApp";
+            Console.ReadKey(true);
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.BackgroundColor = ConsoleColor.White;
+            Console.WriteLine("Hello World");
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.BackgroundColor = ConsoleColor.Yellow;
+            Console.Write("Hello");
+            Console.BackgroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine(" World");
+            Console.ResetColor();
+            Console.WriteLine("App is succeded");
+        }
+    }
+}
+
+
