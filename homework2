@@ -1,0 +1,45 @@
+using System;
+
+namespace privet
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            sbyte p1 = 0;
+            byte p2 = 0;
+            short p3 = 0;
+            ushort p4 = 0;
+            int p5 = 0;
+            uint p6 = 0;
+            long p7 = 0;
+            ulong p8 = 0;
+            float p9 = 0;
+            double p10 = 0;
+            decimal p11 = 0;
+            bool p12 = true;
+            char p13 = '\x5A';
+            string p14 = "qwerty";
+            object p15 = "COVID-19";
+            object p16 = false;
+            object p17 = 1291291819219219212;
+            Console.WriteLine(p12.GetType());
+            Console.WriteLine($"{p1.GetType()} {sbyte.MinValue}..{sbyte.MaxValue}");
+            Console.WriteLine($"{p2.GetType()} {byte.MinValue}..{byte.MaxValue}");
+            Console.WriteLine($"{p3.GetType()} {short.MinValue}..{short.MaxValue}");
+            Console.WriteLine($"{p4.GetType()} {ushort.MinValue}..{ushort.MaxValue}");
+            Console.WriteLine($"{p5.GetType()} {int.MinValue}..{int.MaxValue}");
+            Console.WriteLine($"{p6.GetType()} {uint.MinValue}..{uint.MaxValue}");
+            Console.WriteLine($"{p7.GetType()} {long.MinValue}..{long.MaxValue}");
+            Console.WriteLine($"{p8.GetType()} {ulong.MinValue}..{ulong.MaxValue}");
+            Console.WriteLine($"{p9.GetType()} {float.MinValue}..{float.MaxValue}");
+            Console.WriteLine($"{p10.GetType()} {double.MinValue}..{double.MaxValue}");
+            Console.WriteLine($"{p11.GetType()} {decimal.MinValue}..{decimal.MaxValue}");
+            Console.WriteLine(p13.GetType());
+            Console.WriteLine(p14.GetType());
+            Console.WriteLine(p15.GetType());
+            Console.WriteLine(p16.GetType());
+            Console.WriteLine(p17.GetType());
+        }
+    }
+}
